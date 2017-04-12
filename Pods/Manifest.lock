@@ -1,0 +1,20 @@
+PODS:
+  - CDZPicker (1.0.1)
+  - UnitTestPod (0.1.0):
+    - CDZPicker
+
+DEPENDENCIES:
+  - CDZPicker
+  - UnitTestPod (from `UnitTestPod/UnitTestPod.podspec`)
+
+EXTERNAL SOURCES:
+  UnitTestPod:
+    :path: UnitTestPod/UnitTestPod.podspec
+
+SPEC CHECKSUMS:
+  CDZPicker: 845b279c25ea10846ed7c4d438a82f5aa991582c
+  UnitTestPod: d8feb64a5058dc3a083b348320147897226b9b26
+
+PODFILE CHECKSUM: 2b920be49bf200375510d756ee2d3f2b109ca929
+
+COCOAPODS: 1.2.1.beta.1

@@ -1,0 +1,30 @@
+{
+  "name": "UnitTestPod",
+  "version": "0.1.0",
+  "summary": "A short description of UnitTestPod.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/nemocdz/UnitTestPod",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "nemocdz": "nemocdz@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/nemocdz/UnitTestPod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "UnitTestPod/Classes/**/*",
+  "dependencies": {
+    "CDZPicker": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "OTHER_LDFLAGS": "$(inherited) -l\"CDZPicker\""
+  }
+}
